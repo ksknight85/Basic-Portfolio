@@ -1,10 +1,31 @@
+body {
+    margin: 0px;
+
+}
 .clearfix::after{
 
     content: "";
     display: block;
     clear: both;
     }
+    ol, ul {
+        list-style: none;
+    }
 
+
+    /* Code for header */
+#header1 {
+    z-index: 1;
+    height: 104PX;
+}
+
+#header2 {
+    margin: 0px auto;
+    width: 70%;
+    z-index: 2;
+    background-color: white;
+    height: auto;
+}
 
 h1{
     text-align: center;
@@ -13,7 +34,6 @@ h1{
     font-size: 32px;
     color: #eee;
     float: left;
-    margin-left: 50px;
 }
 
 #contact,
@@ -29,15 +49,40 @@ h1{
     background-color: none;
 }
 
-#header1 {
+
+
+/* Code for body */
+#main1 {
+    z-index: 1;
     float: none;
+    background-color: darkgray;
+    margin: 0px auto;
+    padding: 40px;
+    z-index: 1;
+}
+#main2 {
+    z-index: 2;
+    margin: 0px auto;
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    z-index: 2;
+    padding: 30px;
 }
 
-#header2 {
-width: 70%;
-margin-left: 80pt;
+h2 {
+    font-size: 18;
+    border-bottom: solid
 }
 
-body {
+
+#profile-pic {
+    float: left;
+}
+p {
+   float: left;
+   width: 60%;
+   margin-left: 20px;
+
 
 }
