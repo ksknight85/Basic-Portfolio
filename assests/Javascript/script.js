@@ -9,3 +9,6 @@ $(".img1").on("click", function() {
 $(".img2").on("click", function() {
     window.location = "https://ksknight85.github.io/gifPage/index.html"
 })
+$(".img4").on("click", function() {
+    window.location = "https://haleylanebrown.github.io/Project1/"
+})
