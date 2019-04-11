@@ -12,3 +12,7 @@ $(".img2").on("click", function() {
 $(".img4").on("click", function() {
     window.location = "https://haleylanebrown.github.io/Project1/"
 })
+
+$(".img7").on("click", function() {
+    window.location = "https://fierce-oasis-77433.herokuapp.com/"
+})
