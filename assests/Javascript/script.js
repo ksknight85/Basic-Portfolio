@@ -16,3 +16,6 @@ $(".img4").on("click", function() {
 $(".img7").on("click", function() {
     window.location = "https://fierce-oasis-77433.herokuapp.com/"
 })
+$(".img8").on("click", function() {
+    window.location = "https://fierce-oasis-77433.herokuapp.com/"
+})
