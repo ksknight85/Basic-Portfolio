@@ -22,3 +22,6 @@ $(".img8").on("click", function() {
 $(".img9").on("click", function() {
     window.location = "https://cat-attack1.herokuapp.com/"
 })
+$(".img10").on("click", function() {
+    window.location = "https://ksknight85.github.io/ClickyGame/"
+})
